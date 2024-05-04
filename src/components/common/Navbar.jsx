@@ -459,7 +459,7 @@ function Navbar() {
             </button>
           </div>
           <Link
-            href="/game"
+            to={"/game"}
             className={`uppercase font-bold bg-gradient-to-r from-riot-red to-riot-orange text-black px-4 rounded-lg hidden md:flex justify-center items-center `}
           >
             Play Now
