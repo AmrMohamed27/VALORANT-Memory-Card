@@ -137,12 +137,12 @@ function Navbar() {
           </ul>
         </div>
         <div className="w-full flex">
-          <a
-            href="https://playvalorant.com/en-us/"
+          <Link
+            to={"/game"}
             className={`uppercase font-bold bg-gradient-to-r from-riot-red to-riot-orange text-black px-4 rounded-lg flex justify-center items-center w-full`}
           >
             Play Now
-          </a>
+          </Link>
         </div>
       </div>
       {/* Riot Menu */}
@@ -458,12 +458,12 @@ function Navbar() {
               <FiMenu />
             </button>
           </div>
-          <a
+          <Link
             href="/game"
             className={`uppercase font-bold bg-gradient-to-r from-riot-red to-riot-orange text-black px-4 rounded-lg hidden md:flex justify-center items-center `}
           >
             Play Now
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
