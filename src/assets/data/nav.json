@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "text": "Game Info",
+    "hasDropdownArrow": true,
+    "hasUpArrow": false,
+    "child": [
+      {
+        "id": 1,
+        "element": "Agents"
+      },
+      {
+        "id": 2,
+        "element": "Maps"
+      },
+      {
+        "id": 3,
+        "element": "Arsenal"
+      },
+      {
+        "id": 4,
+        "element": "Premier"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Media",
+    "hasDropdownArrow": false,
+    "hasUpArrow": false
+  },
+  {
+    "id": 3,
+    "text": "News",
+    "hasDropdownArrow": false,
+    "hasUpArrow": false
+  },
+  {
+    "id": 4,
+    "text": "Leaderboards",
+    "hasDropdownArrow": false,
+    "hasUpArrow": false
+  },
+  {
+    "id": 5,
+    "text": "Support",
+    "hasDropdownArrow": true,
+    "hasUpArrow": false,
+    "OnlyLargeScreen": true,
+    "child": [
+      {
+        "id": 1,
+        "element": "Specs",
+        "hasUpArrow": true
+      },
+      {
+        "id": 2,
+        "element": "Support",
+        "hasUpArrow": true
+      },
+      {
+        "id": 3,
+        "element": "Community Code",
+        "hasUpArrow": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Our Socials",
+    "hasDropdownArrow": true,
+    "hasUpArrow": false,
+    "OnlyLargeScreen": true,
+    "child": [
+      {
+        "id": 1,
+        "element": "Twitter",
+        "hasUpArrow": true
+      },
+      {
+        "id": 2,
+        "element": "Youtube",
+        "hasUpArrow": true
+      },
+      {
+        "id": 3,
+        "element": "Instagram",
+        "hasUpArrow": true
+      },
+      {
+        "id": 4,
+        "element": "TikTok",
+        "hasUpArrow": true
+      },
+      {
+        "id": 5,
+        "element": "Facebook",
+        "hasUpArrow": true
+      },
+      {
+        "id": 6,
+        "element": "Discord",
+        "hasUpArrow": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Esports",
+    "hasDropdownArrow": false,
+    "hasUpArrow": true,
+    "OnlyLargeScreen": true
+  },
+  {
+    "id": 8,
+    "text": "More",
+    "noLargeScreen": true,
+    "mobileMenu": false,
+    "child": [
+      {
+        "id": 1,
+        "element": "Support",
+        "hasUpArrow": true
+      },
+      {
+        "id": 2,
+        "element": "Our Socials",
+        "hasUpArrow": true
+      },
+      {
+        "id": 3,
+        "element": "Esports",
+        "hasUpArrow": true
+      }
+    ]
+  }
+]
