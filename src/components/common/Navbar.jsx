@@ -65,7 +65,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-black text-white">
+    <nav className="w-full bg-black text-white sticky top-0 z-50">
       {/* Mobile Menu */}
       <div
         className={`min-h-screen w-[60%] ${

@@ -81,3 +81,27 @@ export const agents = [
   { id: 23, name: "Iso", role: "Duelist", country: "CN" },
   { id: 24, name: "Clove", role: "Controller", country: "GB" },
 ];
+
+export const articles = [
+  {
+    id: 1,
+    date: "2024-06-01",
+    category: "game updates",
+    title: "Valorant Patch Notes 8.10",
+    imageUrl: "public/assets/images/article1.jpg",
+  },
+  {
+    id: 2,
+    date: "2024-06-02",
+    category: "Esports",
+    title: "Inside the mind of a pro valorant duelist",
+    imageUrl: "public/assets/images/article2.jpg",
+  },
+  {
+    id: 3,
+    date: "2024-06-03",
+    category: "Trailer",
+    title: "Thrill Unleashed // VALORANT Masters Shanghai Cinematic",
+    imageUrl: "public/assets/images/article3.jpg",
+  },
+];
